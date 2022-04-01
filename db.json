@@ -1,16 +1,619 @@
 {
-  "posts":[
+  "dashboards": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": "a",
+      "dashboardsGroupName": "Дашборд 1",
+      "dashboards": [
+        {
+          "id": "aa",
+          "dashboardName": "Группа данных 1"
+        },
+        {
+          "id": "aaa",
+          "dashboardName": "Группа данных 2"
+        },
+        {
+          "id": "aaaa",
+          "dashboardName": "Группа данных 3"
+        },
+        {
+          "id": "aaaaa",
+          "dashboardName": "Группа данных 4"
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "dashboardsGroupName": "Дашборд 2",
+      "dashboards": [
+        {
+          "id": "bb",
+          "dashboardName": "Группа данных 1"
+        },
+        {
+          "id": "bbb",
+          "dashboardName": "Группа данных 2"
+        },
+        {
+          "id": "bbbb",
+          "dashboardName": "Группа данных 3"
+        },
+        {
+          "id": "bbbbb",
+          "dashboardName": "Группа данных 4"
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "dashboardsGroupName": "Дашборд 3",
+      "dashboards": [
+        {
+          "id": "cc",
+          "dashboardName": "Группа данных 1"
+        },
+        {
+          "id": "ccc",
+          "dashboardName": "Группа данных 2"
+        },
+        {
+          "id": "cccc",
+          "dashboardName": "Группа данных 3"
+        },
+        {
+          "id": "ccccc",
+          "dashboardName": "Группа данных 4"
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "dashboardsGroupName": "Дашборд 4",
+      "dashboards": [
+        {
+          "id": "dd",
+          "dashboardName": "Группа данных 1"
+        },
+        {
+          "id": "ddd",
+          "dashboardName": "Группа данных 2"
+        },
+        {
+          "id": "dddd",
+          "dashboardName": "Группа данных 3"
+        },
+        {
+          "id": "ddddd",
+          "dashboardName": "Группа данных 4"
+        }
+      ]
     }
   ],
-  "comments" : [
+  "grid": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": "aa",
+      "panels": [
+        {
+          "id": "qwe",
+          "cols": 2,
+          "rows": 4,
+          "y": 0,
+          "x": 0,
+          "hasContent": true,
+          "chart": {
+            "type": [
+              "bar",
+              "doughnut",
+              "line",
+              "table"
+            ],
+            "chartData": {
+              "labels": [
+                "2006",
+                "2007",
+                "2008",
+                "2009",
+                "2010",
+                "2011",
+                "2012"
+              ],
+              "datasets": [
+                {
+                  "data": [
+                    "65",
+                    "59",
+                    "80",
+                    "81",
+                    "56",
+                    "55",
+                    "40"
+                  ],
+                  "label": "Series A"
+                },
+                {
+                  "data": [
+                    "28",
+                    "48",
+                    "40",
+                    "19",
+                    "86",
+                    "27",
+                    "90"
+                  ],
+                  "label": "Series B"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "qwer",
+          "cols": 2,
+          "rows": 4,
+          "y": 0,
+          "x": 2,
+          "hasContent": true,
+          "chart": {
+            "type": [
+              "doughnut",
+              "bar"
+            ],
+            "chartData": {
+              "labels": [
+                "Download Sales",
+                "In-Store Sales",
+                "Mail-Order Sales"
+              ],
+              "datasets": [
+                {
+                  "data": [
+                    "350",
+                    "450",
+                    "100"
+                  ],
+                  "label": "$"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aaa",
+      "panels": [
+        {
+          "id": "qwe",
+          "cols": 2,
+          "rows": 4,
+          "y": 0,
+          "x": 0,
+          "hasContent": true,
+          "chart": {
+            "type": [
+              "bar",
+              "doughnut",
+              "line",
+              "table"
+            ],
+            "chartData": {
+              "labels": [
+                "2006",
+                "2007",
+                "2008",
+                "2009",
+                "2010",
+                "2011",
+                "2012"
+              ],
+              "datasets": [
+                {
+                  "data": [
+                    "65",
+                    "59",
+                    "80",
+                    "81",
+                    "56",
+                    "55",
+                    "40"
+                  ],
+                  "label": "Series A"
+                },
+                {
+                  "data": [
+                    "28",
+                    "48",
+                    "40",
+                    "19",
+                    "86",
+                    "27",
+                    "90"
+                  ],
+                  "label": "Series B"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "qwer",
+          "cols": 2,
+          "rows": 4,
+          "y": 0,
+          "x": 2,
+          "hasContent": true,
+          "chart": {
+            "type": [
+              "doughnut",
+              "bar"
+            ],
+            "chartData": {
+              "labels": [
+                "Download Sales",
+                "In-Store Sales",
+                "Mail-Order Sales"
+              ],
+              "datasets": [
+                {
+                  "data": [
+                    "350",
+                    "450",
+                    "100"
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aaaa",
+      "panels": []
+    },
+    {
+      "id": "aaaaa",
+      "panels": []
+    },
+    {
+      "id": "bbb",
+      "panels": []
+    },
+    {
+      "id": "bbbb",
+      "panels": []
+    },
+    {
+      "id": "bbbbb",
+      "panels": []
+    },
+    {
+      "id": "cc",
+      "panels": []
+    },
+    {
+      "id": "ccc",
+      "panels": []
+    },
+    {
+      "id": "cccc",
+      "panels": []
+    },
+    {
+      "id": "ccccc",
+      "panels": []
+    },
+    {
+      "id": "dd",
+      "panels": []
+    },
+    {
+      "id": "ddd",
+      "panels": []
+    },
+    {
+      "id": "dddd",
+      "panels": []
+    },
+    {
+      "id": "ddddd",
+      "panels": []
+    },
+    {
+      "id": "KTWoZf0H",
+      "panels": []
+    },
+    {
+      "id": "nh10gPDl",
+      "panels": []
+    },
+    {
+      "id": "Nnu4Z1O4",
+      "panels": []
+    },
+    {
+      "id": "CGF5lsw6",
+      "panels": []
+    },
+    {
+      "id": "lwOadeRh",
+      "panels": []
+    },
+    {
+      "id": "T2LaGfrZ",
+      "panels": []
+    },
+    {
+      "id": "K2leOMk1",
+      "panels": []
+    },
+    {
+      "id": "1URu0t8W",
+      "panels": []
+    },
+    {
+      "id": "bR8bL5kg",
+      "panels": []
+    },
+    {
+      "id": "z7fHnfBF",
+      "panels": []
+    },
+    {
+      "id": "VWpHlekL",
+      "panels": []
+    }
+  ],
+  "patterns": [
+    {
+      "id": "qwe",
+      "type": "doughnut",
+      "chartData": {
+        "labels": [
+          "Download Sales",
+          "In-Store Sales",
+          "Mail-Order Sales"
+        ],
+        "datasets": [
+          {
+            "data": [
+              350,
+              450,
+              100
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qwer",
+      "type": "bar",
+      "chartData": {
+        "labels": [
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012"
+        ],
+        "datasets": [
+          {
+            "data": [
+              65,
+              59,
+              80,
+              81,
+              56,
+              55,
+              40
+            ],
+            "label": "Series A"
+          },
+          {
+            "data": [
+              28,
+              48,
+              40,
+              19,
+              86,
+              27,
+              90
+            ],
+            "label": "Series B"
+          }
+        ]
+      }
+    }
+  ],
+  "logs": [
+    {
+      "avatar": "//zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png",
+      "userName": "Пользователь #1",
+      "changes": "Дашборд 1. Группа данных 2",
+      "date": "28.01.22",
+      "time": "18:00:30"
+    },
+    {
+      "avatar": "//zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png",
+      "userName": "Пользователь #1",
+      "changes": "Дашборд 2. Группа данных 1",
+      "date": "27.01.22",
+      "time": "12:44:19"
+    },
+    {
+      "avatar": "",
+      "userName": "Пользователь #1",
+      "changes": "",
+      "date": "27.01.22",
+      "time": "11:23:20"
+    },
+    {
+      "avatar": "",
+      "userName": "Пользователь #1",
+      "changes": "",
+      "date": "26.01.22",
+      "time": "14:34:31"
+    },
+    {
+      "avatar": "//zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png",
+      "userName": "Пользователь #1",
+      "changes": "Дашборд 2. Группа данных 3",
+      "date": "25.01.22",
+      "time": "17:12:34"
+    },
+    {
+      "avatar": "",
+      "userName": "Пользователь #1",
+      "changes": "",
+      "date": "27.01.22",
+      "time": "11:23:20"
+    },
+    {
+      "avatar": "",
+      "userName": "Пользователь #1",
+      "changes": "",
+      "date": "26.01.22",
+      "time": "14:34:31"
+    },
+    {
+      "avatar": "//zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png",
+      "userName": "Пользователь #1",
+      "changes": "Дашборд 2. Группа данных 3",
+      "date": "25.01.22",
+      "time": "17:12:34"
+    }
+  ],
+  "tradingNetworks": [
+    {
+      "id": "wda",
+      "networkName": "Значение1",
+      "unpList": [
+        "Элемент1",
+        "Элемент2",
+        "Элемент3"
+      ]
+    },
+    {
+      "id": "ifj",
+      "networkName": "Значение2",
+      "unpList": []
+    }
+  ],
+  "roles": [
+    {
+      "id": "ooo",
+      "roleName": "Роль1",
+      "permissions": [
+        "Разрешение1",
+        "Разрешение2",
+        "Разрешение3",
+        "Разрешение4",
+        "Разрешение5",
+        "Разрешение6",
+        "Разрешение7",
+        "Разрешение8",
+        "Разрешение9",
+        "Разрешение10",
+        "Разрешение11",
+        "Разрешение12",
+        "Разрешение13"
+      ],
+      "users": [
+        {
+          "id": "lkl",
+          "userName": "Aleksey",
+          "avatar": "//zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+        },
+        {
+          "id": "lkllll",
+          "userName": "Сергей",
+          "avatar": ""
+        }
+      ]
+    },
+    {
+      "id": "oooaaa",
+      "roleName": "Роль2",
+      "permissions": [
+        "Разрешение1",
+        "Разрешение2",
+        "Разрешение3",
+        "Разрешение4",
+        "Разрешение5",
+        "Разрешение6"
+      ],
+      "users": [
+        {
+          "id": "lkllll",
+          "userName": "Сергей",
+          "avatar": ""
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "created_at": "2022-02-16T19:33:12.000000Z",
+      "fullname": "Пользователь1",
+      "id": "sda",
+      "is_blocked": false,
+      "roles": [
+        {
+          "created_at": "2022-02-18T09:26:10.000000Z",
+          "id": "14",
+          "name": "Пользователь1",
+          "updated_at": "2022-02-18T09:26:10.000000Z"
+        },
+        {
+          "created_at": "2022-02-18T09:26:10.000000Z",
+          "id": "14g",
+          "name": "Пользователь2",
+          "updated_at": "2022-02-18T09:26:10.000000Z"
+        }
+      ],
+      "updated_at": "2022-02-17T11:21:02.000000Z",
+      "avatar": ""
+    },
+    {
+      "created_at": "2022-02-16T19:33:12.000000Z",
+      "fullname": "Пользователь3",
+      "id": "sdaa",
+      "is_blocked": false,
+      "roles": [
+        {
+          "created_at": "2022-02-18T09:26:10.000000Z",
+          "id": "142",
+          "name": "Пользователь3",
+          "updated_at": "2022-02-18T09:26:10.000000Z"
+        }
+      ],
+      "updated_at": "2022-02-17T11:21:02.000000Z",
+      "avatar": "//zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+    },
+    {
+      "created_at": "2022-02-16T19:33:12.000000Z",
+      "fullname": "Пользователь2",
+      "id": "sdaadf",
+      "is_blocked": false,
+      "roles": [
+        {
+          "created_at": "2022-02-18T09:26:10.000000Z",
+          "id": "14g",
+          "name": "Пользователь2",
+          "updated_at": "2022-02-18T09:26:10.000000Z"
+        }
+      ],
+      "updated_at": "2022-02-17T11:21:02.000000Z",
+      "avatar": "//zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+    }
+  ],
+  "token": [
+    {
+      "login": "admin",
+      "password": "administrator",
+      "remember": "true"
     }
   ]
 }
